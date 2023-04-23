@@ -1,0 +1,5 @@
+INDEX VERSION 1.132
+C:\Users\satut\Documents\koodit\Ohjelmointi 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2025001041.index
+\Asiakkaat\src\main\java
+C:\Users\satut\Documents\koodit\Ohjelmointi 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2229889655.index
+\Vko_4_Asiakkaat\src\main\java
