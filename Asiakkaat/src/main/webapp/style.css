@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid #a8dee0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr {
+	font-family: Noto Sans;
+	font-size: 13px;
+}
+
+tr:hover {
+	background-color: #dbf1f2;
+}
+
+th {
+  background-color: #a8dee0;
+  color: black;
+  font-family: Noto Sans;
+  font-size: 13px;
+}
+
+form {
+	width: 50%;
+}
+
+#linkki {
+	color: black;	
+	text-decoration: none;
+	float:right;
+    display:block;
+    padding: 10px;
+	font-family: Noto Sans;
+	font-size: 13px;
+}
+
+#haku {
+	font-family: Noto Sans;
+	font-size: 13px;
+}
+
+.poista{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+button {
+	font-family: Noto Sans;
+	font-size: 13px;
+}
