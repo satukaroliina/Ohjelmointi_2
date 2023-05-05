@@ -6,19 +6,16 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 <script src="scripts/main.js"></script>
+<script src="scripts/io.js"></script>
 <title>Asiakkaat</title>
 </head>
-<body>
+<body onload="asetaFocus('hakusana')" onkeydown="tutkiKey(event, 'listaa')">
 <form>
-<p>
-<a id="linkki" href="lisaaAsiakas.jsp">Lisää uusi asiakas</a>
-</p>
-<p>
-<span id="haku">Hakusana:</span> 
-<input type="text" id="hakusana">   
-<input type="button" value="Hae" id="hakunappi" onclick="haeAsiakkaat()">
-</p>  
+<p><a id="linkki" href="lisaaAsiakas.jsp">Lisää uusi asiakas</a></p>
 </form>
+<p><span id="haku">Hakusana:</span> 
+<input type="text" id="hakusana">   
+<input type="button" value="Hae" id="hakunappi" onclick="haeAsiakkaat()"></p>
 <table id="listaus">
 	<thead>
 		<tr>
