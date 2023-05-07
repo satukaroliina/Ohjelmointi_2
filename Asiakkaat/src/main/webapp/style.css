@@ -75,3 +75,22 @@ button {
 	font-size: 13px;
 	text-decoration: none !important;
 }
+
+#loginDiv{
+	position: absolute;
+	border: 2px solid;
+	border-color: #a8dee0;
+	padding: 20px;
+	border-radius: 10px;
+	left: 35%;
+	top: 10%;
+	background-color: white;
+	font-family: Noto Sans;
+  	font-size: 13px;
+}
+
+label {
+	display: block;
+	width: 5em;
+	float: left;
+}

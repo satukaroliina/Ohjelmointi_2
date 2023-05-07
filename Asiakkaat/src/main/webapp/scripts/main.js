@@ -81,6 +81,8 @@ function tutkiKey(event, target){
 			tutkiJaLisaa();
 		}else if(target=="paivita"){
 			tutkiJaPaivita();
+		}else if(target=="kirjaudu"){
+			hashPwd();
 		}
 	}else if(event.keyCode==113){//F2
 		document.location="listaaAsiakkaat.jsp";

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Vko_4_Asiakkaat">
-        <property name="context-root" value="Vko_4_Asiakkaat"/>
-        <property name="java-output-path" value="/Vko_4_Asiakkaat/build/classes"/>
-    </wb-module>
-</project-modules>

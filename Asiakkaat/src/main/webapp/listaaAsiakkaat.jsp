@@ -1,3 +1,4 @@
+<%@include file="header.jsp" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -11,7 +12,7 @@
 </head>
 <body onload="asetaFocus('hakusana')" onkeydown="tutkiKey(event, 'listaa')">
 <form>
-<p><a id="linkki" href="lisaaAsiakas.jsp">Lisää uusi asiakas</a></p>
+<p><a id="linkki" href="login?logout=1">Kirjaudu ulos (<%out.print(session.getAttribute("kayttaja"));%>)</a></p>
 </form>
 <p><span id="haku">Hakusana:</span> 
 <input type="text" id="hakusana">   
@@ -23,7 +24,7 @@
 		<th>Sukunimi</th>
 		<th>Puhelin</th>
 		<th>Sähköposti</th>
-		<th></th>
+		<th><a id="linkki" href="lisaaAsiakas.jsp">Lisää uusi asiakas</a></th>
 		</tr>
 	</thead>
 	<tbody id = "tbody">	
